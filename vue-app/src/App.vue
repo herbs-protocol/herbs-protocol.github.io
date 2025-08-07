@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div id="herbs-protocol-container">
         <oc-header />
         <loader :isLoading="isLoading" />
         <router-view />
@@ -35,8 +35,6 @@ export default {
     },
 };
 </script>
-
-
 
 <style scoped>
 </style>

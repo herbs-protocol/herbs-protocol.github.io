@@ -1,0 +1,11 @@
+/* herbs background */
+body {
+    background-image: url('./assets/images/herbs-background.png');
+    background-size: cover; /* or "contain" or "100% 100%" */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* optional: keeps it static when scrolling */
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
