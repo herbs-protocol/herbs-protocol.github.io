@@ -1,4 +1,4 @@
-import alerts from './modules/alerts';
+// import alerts from './modules/alerts';
 
 export default {
     state: {},
@@ -6,6 +6,6 @@ export default {
     mutations: {},
     actions: {},
     modules: {
-        alerts,
+        // alerts,
     },
 };

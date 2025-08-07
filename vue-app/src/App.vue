@@ -2,14 +2,13 @@
     <div>
         <oc-header />
         <loader :isLoading="isLoading" />
-        <herbs-protocol />
+        <router-view />
         <oc-footer />
     </div>
 </template>
 
 <script>
 import emitter from "@/helpers/eventBus";
-import HerbsProtocol from "@/components/HerbsProtocol.vue";
 import Loader from "@/components/Loader.vue";
 import OcHeader from "@/components/Header.vue";
 import OcFooter from "@/components/Footer.vue";
@@ -17,7 +16,6 @@ import OcFooter from "@/components/Footer.vue";
 export default {
     name: "App",
     components: {
-        HerbsProtocol,
         Loader,
         OcHeader,
         OcFooter,
