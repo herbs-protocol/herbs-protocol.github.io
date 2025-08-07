@@ -1,6 +1,6 @@
 <template>
     <div class="d-flex flex-row align-items-center">
-        <div class="container">
+        <div class="container not-found-container">
             <div class="row justify-content-center">
                 <div class="col-md-12 text-center">
                     <span class="display-1 d-block">404</span>
@@ -28,3 +28,13 @@ export default {
     watch: {},
 };
 </script>
+
+<style scoped>
+.not-found-container {
+    color: white;
+    background-color: darkgrey;
+    border-radius: 15px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+</style>

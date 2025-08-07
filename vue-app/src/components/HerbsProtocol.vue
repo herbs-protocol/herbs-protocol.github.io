@@ -5,32 +5,48 @@
                 class="marquee"
             >SITE IS UNDER CONSTRUCTION • SITE IS UNDER CONSTRUCTION • SITE IS UNDER CONSTRUCTION •</div>
         </div>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-3">
-                <div id="tania1" @click="goToTania">Tania</div>
+                <div class="main-box" @click="goToTania(1)">
+                    <span class="box-text">Tania1</span>
+                </div>
             </div>
             <div class="col-3">
-                <div id="tania1" @click="goToTania">Tania</div>
+                <div class="main-box" @click="goToTania(2)">
+                    <span class="box-text">Tania2</span>
+                </div>
             </div>
             <div class="col-3">
-                <div id="tania1" @click="goToTania">Tania</div>
+                <div class="main-box" @click="goToTania(3)">
+                    <span class="box-text">Tania3</span>
+                </div>
             </div>
             <div class="col-3">
-                <div id="tania1" @click="goToTania">Tania</div>
+                <div class="main-box" @click="goToTania(4)">
+                    <span class="box-text">Tania4</span>
+                </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row mt-5">
             <div class="col-3">
-                <div id="tania1" @click="goToTania">Tania</div>
+                <div class="main-box" @click="goToTania(5)">
+                    <span class="box-text">Tania5</span>
+                </div>
             </div>
             <div class="col-3">
-                <div id="tania1" @click="goToTania">Tania</div>
+                <div class="main-box" @click="goToTania(6)">
+                    <span class="box-text">Tania6</span>
+                </div>
             </div>
             <div class="col-3">
-                <div id="tania1" @click="goToTania">Tania</div>
+                <div class="main-box" @click="goToTania(7)">
+                    <span class="box-text">Tania7</span>
+                </div>
             </div>
             <div class="col-3">
-                <div id="tania1" @click="goToTania">Tania</div>
+                <div class="main-box" @click="goToTania(8)">
+                    <span class="box-text">Tania8</span>
+                </div>
             </div>
         </div>
     </div>
@@ -45,8 +61,8 @@ export default {
     mounted() {},
     computed: {},
     methods: {
-        goToTania() {
-            this.$router.push("/ilia").catch(() => {});
+        goToTania(param = 1) {
+            this.$router.push(`/tania${param}`).catch(() => {});
         },
     },
     watch: {},
@@ -79,15 +95,20 @@ export default {
     }
 }
 
-#tania1 {
+.main-box {
     background: yellow;
     opacity: 50%;
     border-radius: 10px;
     width: 100%;
-    margin-left: 20px;
-    margin-top: 20px;
+    height: 200px;
     padding: 20px;
     cursor: pointer;
+}
+.box-text {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
 }
 </style>
 
