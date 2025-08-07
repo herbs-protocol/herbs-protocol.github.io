@@ -1,8 +1,5 @@
 <template>
     <header id="oc-native-header">
-        <!-- <div class="oc-native-header-wrapper">
-            <img id="oc-native-header-logo" alt="Opencode" src="../assets/images/header-logo.png" />
-        </div>-->
         <div class="oc-native-header-wrapper">
             <img
                 id="oc-native-herbs-protocol-logo"
@@ -47,7 +44,7 @@ export default {
 
 #oc-native-header-logo,
 #oc-native-herbs-protocol-logo {
-    height: 60px; /* Match footer logo height */
+    height: 40px; /* Match footer logo height */
     width: auto;
 }
 
