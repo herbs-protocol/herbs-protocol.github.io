@@ -5,45 +5,45 @@
                 class="marquee"
             >SITE IS UNDER CONSTRUCTION • SITE IS UNDER CONSTRUCTION • SITE IS UNDER CONSTRUCTION •</div>
         </div>
-        <div class="row mt-5">
-            <div class="col-3">
+        <div class="row mt-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTania(1)">
                     <span class="box-text">Tania1</span>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTania(2)">
                     <span class="box-text">Tania2</span>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTania(3)">
                     <span class="box-text">Tania3</span>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTania(4)">
                     <span class="box-text">Tania4</span>
                 </div>
             </div>
         </div>
-        <div class="row mt-5">
-            <div class="col-3">
+        <div class="row">
+            <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTania(5)">
                     <span class="box-text">Tania5</span>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTania(6)">
                     <span class="box-text">Tania6</span>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTania(7)">
                     <span class="box-text">Tania7</span>
                 </div>
             </div>
-            <div class="col-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTania(8)">
                     <span class="box-text">Tania8</span>
                 </div>
@@ -101,6 +101,7 @@ export default {
     border-radius: 10px;
     width: 100%;
     height: 200px;
+    margin-bottom: 20px;
     padding: 20px;
     cursor: pointer;
 }
