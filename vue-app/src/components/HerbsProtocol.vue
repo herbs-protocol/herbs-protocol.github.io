@@ -30,6 +30,19 @@
                     allowfullscreen
                 ></iframe>
             </div>
+            <div class="col-md-1 col-sm-6"></div>
+            <div class="col-md-3 col-sm-6">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/ejJsAHR5pR0?si=mHGVA0tqbT9fIpjk"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
         </div>
         <div class="row mt-3">
             <div class="col-md-3 col-sm-6">
