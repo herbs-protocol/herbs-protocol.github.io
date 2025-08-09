@@ -47,7 +47,7 @@
         <div class="row mt-3">
             <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTreatableDiseases">
-                    <span class="box-text">Treatable Diseases</span>
+                    <span class="box-text">Третирани Заболявяния</span>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
