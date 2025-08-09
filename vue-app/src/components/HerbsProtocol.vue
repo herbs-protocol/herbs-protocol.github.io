@@ -7,6 +7,32 @@
         </div>
         <div class="row mt-3">
             <div class="col-md-3 col-sm-6">
+                <iframe
+                    src="https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Freel%2F1485558796140461%2F&show_text=false&width=267&t=0"
+                    width="267"
+                    height="476"
+                    style="border:none;overflow:hidden"
+                    scrolling="no"
+                    frameborder="0"
+                    allowfullscreen="true"
+                    allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                ></iframe>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/IuD38mqTRQ4?si=9Ag0FKTWviES298G"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                ></iframe>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-md-3 col-sm-6">
                 <div class="main-box" @click="goToTania(1)">
                     <span class="box-text">Tania1</span>
                 </div>
@@ -50,7 +76,7 @@
             </div>
         </div>
     </div>
-</template>n
+</template>
 
 <script>
 export default {
