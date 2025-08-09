@@ -46,8 +46,8 @@
         </div>
         <div class="row mt-3">
             <div class="col-md-3 col-sm-6">
-                <div class="main-box" @click="goToTania(1)">
-                    <span class="box-text">Tania1</span>
+                <div class="main-box" @click="goToTreatableDiseases">
+                    <span class="box-text">Treatable Diseases</span>
                 </div>
             </div>
             <div class="col-md-3 col-sm-6">
@@ -100,6 +100,9 @@ export default {
     mounted() {},
     computed: {},
     methods: {
+        goToTreatableDiseases() {
+            this.$router.push("/treatable-diseases").catch(() => {});
+        },
         goToTania(param = 1) {
             this.$router.push(`/tania${param}`).catch(() => {});
         },
