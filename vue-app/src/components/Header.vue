@@ -12,7 +12,7 @@
             @click.prevent="openSertificate"
             data-bs-toggle="modal"
             data-bs-target="#sertificateModal"
-        >Сетификат</a>
+        >Сертификат</a>
         <button id="oc-native-user-button" title="User: Guest">
             <span class="oc-native-user-icon">👤</span>
             <!-- Replace with an SVG or icon font if preferred -->
