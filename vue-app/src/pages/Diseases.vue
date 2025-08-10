@@ -8,14 +8,14 @@
                         class="btn btn-info pull-left mt-2"
                         @click="$router.push('/').catch(() => {})"
                     >Назад</button>
-                    <span>Третирани Заболявяния</span>
+                    <span>Третирани Заболявания</span>
                 </div>
             </div>
         </div>
         <div class="row">
             <div class="col">
                 <div id="diseases-table">
-                    <table class="table">
+                    <table class="table table-striped table-hover">
                         <thead>
                             <tr>
                                 <th scope="col">#</th>

@@ -20,7 +20,7 @@
             </div>
             <div class="col-md-3 col-sm-12">
                 <div class="main-box" @click="goToTreatableDiseases">
-                    <span class="box-text">Третирани Заболявяния</span>
+                    <span class="box-text">Третирани Заболявания</span>
                 </div>
             </div>
             <div class="col-md-3 col-sm-12">
