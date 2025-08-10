@@ -7,6 +7,12 @@
                 src="../assets/images/herbs-protocol-logo.jpg"
             />
         </div>
+        <a
+            href="#"
+            @click.prevent="openSertificate"
+            data-bs-toggle="modal"
+            data-bs-target="#sertificateModal"
+        >Сетификат</a>
         <button id="oc-native-user-button" title="User: Guest">
             <span class="oc-native-user-icon">👤</span>
             <!-- Replace with an SVG or icon font if preferred -->
@@ -18,11 +24,17 @@
 export default {
     name: "Header",
     data() {
-        return {};
+        return {
+            showSertificate: false,
+        };
     },
     mounted() {},
     computed: {},
-    methods: {},
+    methods: {
+        openSertificate() {
+            console.log("show");
+        },
+    },
 };
 </script>
 
