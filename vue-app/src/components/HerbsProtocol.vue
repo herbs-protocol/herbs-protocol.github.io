@@ -73,8 +73,8 @@ export default {
 /* for phones */
 @media (max-width: 767px) {
     .iframe-container {
-        max-width: 50%;
-        padding-bottom: 140%; /* Adjust this for a different aspect ratio on mobile */
+        max-width: 100%;
+        padding-bottom: 70%; /* Adjust this for a different aspect ratio on mobile */
     }
 }
 /* marque style */
