@@ -7,16 +7,16 @@
         </div>
         <div class="row mt-3">
             <div class="col-md-3 col-sm-12">
-                <iframe
-                    width="442"
-                    height="785"
-                    src="https://www.youtube.com/embed/kQGM9oSaC40"
-                    title="Фитотерапия"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    referrerpolicy="strict-origin-when-cross-origin"
-                    allowfullscreen
-                ></iframe>
+                <div class="iframe-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/kQGM9oSaC40"
+                        title="Фитотерапия"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen
+                    ></iframe>
+                </div>
             </div>
             <div class="col-md-3 col-sm-12">
                 <div class="main-box" @click="goToTreatableDiseases">
@@ -53,6 +53,30 @@ export default {
 </script>
 
 <style scoped>
+/* responsive iframe pic */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 177.5%; /* Aspect ratio for 442/785 (original iframe size) */
+    height: 0;
+    overflow: hidden;
+    max-width: 442px; /* Maximum size for desktop */
+    margin: 0 auto;
+}
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* for phones */
+@media (max-width: 767px) {
+    .iframe-container {
+        max-width: 70%;
+        padding-bottom: 140%; /* Adjust this for a different aspect ratio on mobile */
+    }
+}
 /* marque style */
 .marquee-container {
     width: 100%;

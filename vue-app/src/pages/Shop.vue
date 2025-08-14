@@ -29,6 +29,7 @@
 
 <script>
 import Herb from "@/components/Herb.vue";
+import herbs from "@/config/herbs.json";
 
 export default {
     name: "Shop",
@@ -37,38 +38,7 @@ export default {
     },
     data() {
         return {
-            herbs: [
-                {
-                    pic: "atremorine.webp",
-                    herb: "Хранителна добавка Atremorine - прах",
-                    quantity: "75 гр.",
-                    price: "90.00",
-                },
-                {
-                    pic: "CressanPure.jpg",
-                    herb: "Хранителна добавка лиофилизиран кресон CressanPure",
-                    quantity: "90 капсули",
-                    price: "90.00",
-                },
-                {
-                    pic: "aronia.jpg",
-                    herb: "Пулпа от арония",
-                    quantity: "190 гр.",
-                    price: "9.00",
-                },
-                {
-                    pic: "cherno_grozde.jpg",
-                    herb: "Екстракт/пулпа от черно грозде",
-                    quantity: "300 гр.",
-                    price: "17.50",
-                },
-                {
-                    pic: "ekstrakt_ot_plodove_na_rojkov.jpg",
-                    herb: "Екстракт от плодове на рожков",
-                    quantity: "640 гр.",
-                    price: "28.00",
-                },
-            ],
+            herbs: herbs,
         };
     },
     created() {},
