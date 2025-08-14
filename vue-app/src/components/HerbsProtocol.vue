@@ -87,12 +87,10 @@ export default {
     padding: 10px 0;
     white-space: nowrap;
 }
-
 .marquee {
     display: inline-block;
     animation: marquee 15s linear infinite;
 }
-
 @keyframes marquee {
     0% {
         transform: translateX(0);
@@ -101,20 +99,20 @@ export default {
         transform: translateX(-50%);
     }
 }
-
+/* boxes */
 .main-box {
     background: yellow;
     opacity: 50%;
     border-radius: 10px;
     width: 100%;
-    height: 200px;
+    height: 100px;
     margin-bottom: 20px;
     padding: 20px;
     cursor: pointer;
 }
 .box-text {
     color: black;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: Verdana, sans-serif;
 }
