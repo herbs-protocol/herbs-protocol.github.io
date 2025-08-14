@@ -7,7 +7,7 @@
         </div>
         <div class="row mt-3">
             <div class="col-md-3 col-sm-12">
-                <div class="iframe-container">
+                <div class="iframe-container mb-3">
                     <iframe
                         src="https://www.youtube.com/embed/kQGM9oSaC40"
                         title="Фитотерапия"
@@ -73,7 +73,7 @@ export default {
 /* for phones */
 @media (max-width: 767px) {
     .iframe-container {
-        max-width: 70%;
+        max-width: 50%;
         padding-bottom: 140%; /* Adjust this for a different aspect ratio on mobile */
     }
 }
