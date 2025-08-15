@@ -5,7 +5,7 @@
                 <div id="diseases-header">
                     <button
                         type="button"
-                        class="btn btn-info pull-left mt-2"
+                        class="btn btn-info pull-left"
                         @click="$router.push('/').catch(() => {})"
                     >Назад</button>
                     <span>Третирани Заболявания</span>
@@ -61,7 +61,7 @@ export default {
     padding: 20px;
     width: 100%;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
     font-family: Verdana, sans-serif;
 }
@@ -73,7 +73,7 @@ export default {
     padding: 20px;
     width: 100%;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     font-family: Verdana, sans-serif;
 }

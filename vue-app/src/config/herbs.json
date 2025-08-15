@@ -28,5 +28,35 @@
         "herb": "Екстракт от плодове на рожков",
         "quantity": "640 гр.",
         "price": "28.00"
+    },
+    {
+        "pic": "chai_imunolek.jpg",
+        "herb": "Чай Имунолек",
+        "quantity": "20 филтърни торбички",
+        "price": "18.50"
+    },
+    {
+        "pic": "babini_zybi.jpg",
+        "herb": "Бабини зъби",
+        "quantity": "30 гр.",
+        "price": "3.00"
+    },
+    {
+        "pic": "cvqt_ot_buz.jpg",
+        "herb": "Бъз – цвят",
+        "quantity": "50 гр.",
+        "price": "4.50"
+    },
+    {
+        "pic": "bql_ravnec.jpg",
+        "herb": "Бял равнец",
+        "quantity": "50 гр.",
+        "price": "3.50"
+    },
+    {
+        "pic": "gradinski_chai.jpeg",
+        "herb": "Градински чай (салвия)",
+        "quantity": "50 гр.",
+        "price": "3.00"
     }
 ]
